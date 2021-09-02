@@ -1,4 +1,25 @@
-navbar {
+.navbar{
+  padding: 10px 0 10px 0;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 100%;
+}
+div {
+  display: flex;
+  flex-flow: row;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-font: row wrap;
+  margin: 0;
+  padding: 10px 0 10px 0;
+}
+li {
+  padding: 0 7px 0 7px;
+}
+img {
+  width: 25px;
+  height: 25px;
 }

@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  #background: url("/assets/photos/background.png");
+  background-color: #ddd;
+  cursor: default;
+}
+.panel {
+  background: #fff;
+  margin: 13px;
+  border-radius: 8px;
+  box-shadow: 0 0 2px gray;
+}
