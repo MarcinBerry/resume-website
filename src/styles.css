@@ -6,22 +6,46 @@ body {
   background-color: #ddd;
   cursor: default;
   font-size: 14px;
-}
-div {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  color: #333;
 }
 .panel {
   background: #fff;
   margin: 13px;
   border-radius: 8px;
   box-shadow: 0 0 2px gray;
-  box-sizing: border-box;
 }
 * {
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
+}
+.button {
+  margin: 15px auto 15px;
+  width: 150px;
+  height: 40px;
+  border: 0px;
+  border-radius: 20px;
+  background: orange;
+  transition: 0.3s;
+  opacity: 1;
+  font-weight: 600;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  cursor: pointer;
+  background: orangered;
+}
+
+.zoom-in:hover {
+  transition: 0.3s;
+  transform: scale(1.05, 1.05);
+}
+
+.zoom-in-larger:hover {
+  transition: 0.3s;
+  transform: scale(1.22, 1.22);
 }
