@@ -1,5 +1,8 @@
-.resume-layout {
-  margin: 25px auto;
-  padding: 0;
+.resume {
+  margin: 0 auto;
   width: 70%;
+}
+.content {
+  display: flex;
+  flex-font: row;
 }

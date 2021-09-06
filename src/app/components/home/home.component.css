@@ -1,0 +1,9 @@
+.home {
+  display: flex;
+  flex-flow: column;
+}
+
+h3 {
+  margin: 20px 0 20px 20px;
+  border-bottom: 4px red solid;
+}

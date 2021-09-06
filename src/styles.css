@@ -6,9 +6,21 @@ body {
   background-color: #ddd;
   cursor: default;
 }
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .panel {
   background: #fff;
   margin: 13px;
   border-radius: 8px;
   box-shadow: 0 0 2px gray;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
 }

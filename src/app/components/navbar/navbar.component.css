@@ -3,9 +3,8 @@
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  width: 100%;
 }
-div {
+.left-menu {
   display: flex;
   flex-flow: row;
 }

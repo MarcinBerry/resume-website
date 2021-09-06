@@ -3,10 +3,10 @@ p {
   margin: 0;
   padding: 0;
 }
-.profile-layout {
+.profile {
   display: flex;
   flex-flow: column;
-  width: 310px;
+  width: 315px;
 }
 .title {
   margin: 17px 0px 0px 20px;
