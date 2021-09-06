@@ -3,7 +3,21 @@
   flex-flow: column;
 }
 
-h3 {
-  margin: 20px 0 20px 20px;
-  border-bottom: 4px red solid;
+.title {
+  font-size: 22px;
+  margin: 11px 0 20px 12px;
 }
+.about-me {
+  padding: 27px;
+}
+.about-me p {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+/*.title::after {
+  content: "";
+  border-bottom: 3px solid orangered;
+  width: 20px;
+  display: block;
+  opacity: 0.65;
+}*/
