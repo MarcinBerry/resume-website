@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .profile {
-  display: flex;
-  flex-flow: column;
   width: 290px;
 }
 .header-container {
@@ -22,7 +20,6 @@
   clip-path: polygon(100% 100%, 0 84%, 0 13%, 100% 0);
 }
 ul {
-  list-style-type: none;
   margin: -13px auto 0;
 }
 li {
@@ -50,9 +47,27 @@ li {
 .decor-square:hover {
   border-color: orangered;
 }
-
 .icon {
   margin-left: 6px;
   width: 19px;
   height: 19px;
+}
+.button {
+  margin: 25px auto 25px;
+  width: 150px;
+  height: 40px;
+  border: 0;
+  border-radius: 20px;
+  background: orange;
+  transition: 0.3s;
+  opacity: 1;
+  font-weight: 600;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  cursor: pointer;
+  background: orangered;
 }

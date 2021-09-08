@@ -20,25 +20,6 @@ body {
   border: 0;
   outline: 0;
 }
-.button {
-  margin: 15px auto 15px;
-  width: 150px;
-  height: 40px;
-  border: 0;
-  border-radius: 20px;
-  background: orange;
-  transition: 0.3s;
-  opacity: 1;
-  font-weight: 600;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-}
-.button:hover {
-  cursor: pointer;
-  background: orangered;
-}
 
 .zoom-in:hover {
   transition: 0.3s;
@@ -48,4 +29,15 @@ body {
 .zoom-in-larger:hover {
   transition: 0.3s;
   transform: scale(1.22, 1.22);
+}
+.row {
+  display: flex;
+  flex-flow: row;
+}
+.column {
+  display: flex;
+  flex-flow: column;
+}
+ul {
+  list-style-type: none;
 }

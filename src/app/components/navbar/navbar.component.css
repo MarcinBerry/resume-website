@@ -1,12 +1,7 @@
 .navbar{
-  display: flex;
-  flex-flow: row;
   justify-content: space-between;
 }
 ul {
-  list-style-type: none;
-  display: flex;
-  flex-font: row;
   align-items: center;
 }
 li {

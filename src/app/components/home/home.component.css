@@ -1,22 +1,32 @@
-.home {
-  display: flex;
-  flex-flow: column;
-}
-.title {
-  font-size: 22px;
-  margin: 11px 0 20px 16px;
-}
-.container {
-  padding: 27px;
-}
 p {
   font-size: 13px;
   letter-spacing: 1px;
 }
-.skill-box {
-  width: 50%;
+h2 {
+  font-size: 22px;
+  margin: 11px 0 28px 16px;
 }
-.skill {
+h3 {
+  margin: 10px 0 15px 0;
+}
+h4 {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+ul li {
+  margin: 18px 0 18px 0;
+}
+.skills {
+  background: #fff;
+}
+.container {
+  margin: 29px;
+}
+.sub-container {
+  width: 50%;
+  margin: 0 15px;
+}
+.bar-box {
   display: flex;
   flex-flow: column;
 }
@@ -27,7 +37,8 @@ p {
   border-radius: 20px;
 }
 .progress {
-  border-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
   height: 100%;
   background-color: orangered;
 }
