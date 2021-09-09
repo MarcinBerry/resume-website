@@ -1,0 +1,12 @@
+.container {
+  width: 50%;
+  margin: 25px;
+  display: flex;
+  flex-flow: column;
+}
+p {
+  color: #777;
+}
+.line {
+
+}

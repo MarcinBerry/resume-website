@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { HomeComponent } from './components/home/home.component';
+import { ExperienceComponent } from './components/experiance/experience.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ProfileComponent,
-    HomeComponent
+    HomeComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule

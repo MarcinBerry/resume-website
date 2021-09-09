@@ -1,23 +1,9 @@
-p {
-  font-size: 13px;
-  letter-spacing: 1px;
-}
-h2 {
-  font-size: 22px;
-  margin: 11px 0 28px 16px;
-}
-h3 {
-  margin: 10px 0 15px 0;
-}
-h4 {
-  font-weight: 500;
-  margin-bottom: 8px;
-}
+
 ul li {
   margin: 18px 0 18px 0;
 }
 .skills {
-  background: #fff;
+  margin-top: 5px !important;
 }
 .container {
   margin: 29px;
@@ -41,5 +27,36 @@ ul li {
   border-top-left-radius: 20px;
   height: 100%;
   background-color: orangered;
+}
+.square::before {
+  content: "";
+  width: 45px;
+  height: 45px;
+  border-left: 2px solid orange;
+  border-top: 2px solid orange;
+  background: transparent;
+  display: block;
+  margin-left: -13px;
+  margin-top: -13px;
+  position: absolute;
+  transition: 0.3s;
+}
+.square::after {
+  content: "";
+  width: 45px;
+  height: 45px;
+  border-right: 2px solid orange;
+  border-bottom: 2px solid orange;
+  background: transparent;
+  display: block;
+  position: relative;
+  margin-top: -30px;
+  margin-left: 95%;
+  transition: 0.3s;
+}
+.line-right {
+  height: 313px;
+  width: 2px;
+  background-color: orange;
 }
 

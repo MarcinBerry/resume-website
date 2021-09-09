@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-.profile {
-  width: 290px;
-}
 .header-container {
   margin: 16px 0px 0px 19px;
 }
@@ -32,11 +29,10 @@ li {
   height: 25px;
   border-left: 1px solid orange;
   border-bottom: 1px solid orange;
-  border-radius: 2px;
   background: transparent;
   display: block;
   margin-left: -10px;
-  margin-top: 0px;
+  margin-top: -1px;
   position: absolute;
   transition: 0.3s;
 }
