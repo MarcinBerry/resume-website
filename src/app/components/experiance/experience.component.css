@@ -1,12 +1,36 @@
+:host {
+  display: block;
+  height: 650px;
+}
+.panel {
+  height: 100%;
+}
 .container {
   width: 50%;
-  margin: 25px;
-  display: flex;
-  flex-flow: column;
 }
-p {
-  color: #777;
-}
-.line {
 
+.line {
+  display: block;
+  width: 2px;
+  margin: 25px 0;
+  height: 400px;
+  background-color: orange;
 }
+.description {
+  margin-left: 15px;
+}
+.description li {
+  margin: 3px 0 4px;
+}
+.description li:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border: 1px solid orange;
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  margin-top: 5px;
+  margin-left: -13px;
+}
+

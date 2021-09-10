@@ -6,6 +6,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { HomeComponent } from './components/home/home.component';
 import { ExperienceComponent } from './components/experiance/experience.component';
+import {RouterModule} from "@angular/router";
+import {AppRoutes} from "./app.routes";
 
 @NgModule({
   declarations: [
@@ -15,9 +17,11 @@ import { ExperienceComponent } from './components/experiance/experience.componen
     HomeComponent,
     ExperienceComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+    imports: [
+        BrowserModule,
+        RouterModule,
+        AppRoutes
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
