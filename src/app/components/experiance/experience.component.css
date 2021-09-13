@@ -1,6 +1,6 @@
 :host {
-  display: block;
-  height: 650px;
+  display: flex;
+  flex-flow: row;
 }
 .panel {
   height: 100%;
@@ -8,7 +8,6 @@
 .container {
   width: 50%;
 }
-
 .line {
   display: block;
   width: 2px;
