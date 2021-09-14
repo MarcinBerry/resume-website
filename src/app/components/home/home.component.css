@@ -6,7 +6,7 @@ ul li {
   margin: 18px 0 18px 0;
 }
 .skills {
-  margin-top: 5px !important;
+  margin-top: 20px !important;
 }
 .sub-container {
   width: 50%;
@@ -36,8 +36,8 @@ ul li {
   border-top: 2px solid orange;
   background: transparent;
   display: block;
-  margin-left: -13px;
-  margin-top: -13px;
+  margin-left: -9px;
+  margin-top: -9px;
   position: absolute;
   transition: 0.3s;
 }
@@ -50,13 +50,12 @@ ul li {
   background: transparent;
   display: block;
   position: relative;
-  margin-top: -30px;
+  margin-top: -27px;
   margin-left: 95%;
   transition: 0.3s;
 }
 .line {
-  #height: 313px;
   width: 2px;
+  margin: 0 10px 0 10px;
   background-color: orange;
 }
-
