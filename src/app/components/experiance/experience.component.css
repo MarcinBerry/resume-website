@@ -2,24 +2,20 @@
   display: flex;
   flex-flow: row;
 }
-.panel {
-  height: 100%;
-}
 .container {
   width: 50%;
 }
 .line {
   display: block;
   width: 2px;
-  margin: 25px 0;
-  #height: 550px;
+  margin: 9% 0 0 0;
   background-color: orange;
 }
 .description {
   margin-left: 15px;
 }
 .description li {
-  margin: 3px 0 4px;
+  margin: 6px 0 6px 8px;
 }
 .description li:before {
   content: "";
@@ -29,7 +25,7 @@
   display: block;
   position: absolute;
   transform: rotate(45deg);
-  margin-top: 4px;
+  margin-top: 3px;
   margin-left: -13px;
 }
 
