@@ -54,8 +54,8 @@ ul li {
   margin-left: 95%;
   transition: 0.3s;
 }
-.line-right {
-  height: 313px;
+.line {
+  #height: 313px;
   width: 2px;
   background-color: orange;
 }
