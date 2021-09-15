@@ -10,8 +10,21 @@
   height: 160px;
   border-radius: 20px;
   background: rgb(245, 245, 245);
+  box-shadow: 0 0 10px #bbb;
 }
 img {
-  height: 100%;
-  width: 600px;
+  #height: 100%;
+  width: 220px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+h2 {
+  margin-top: 40px;
+  #text-shadow: 2px 2px 1px orange;
+}
+h3 {
+  margin: 14px;
+}
+p {
+  margin: 0 0 0 8px;
 }
