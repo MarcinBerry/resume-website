@@ -9,6 +9,7 @@ import { ExperienceComponent } from './components/experiance/experience.componen
 import {RouterModule} from "@angular/router";
 import {AppRoutes} from "./app.routes";
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     ProfileComponent,
     HomeComponent,
     ExperienceComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactComponent
   ],
     imports: [
         BrowserModule,
