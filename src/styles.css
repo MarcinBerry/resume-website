@@ -83,3 +83,19 @@ a {
   margin-top: -3px;
   transition: 0.3s;
 }
+
+.left-line-span {
+  width: 2px;
+  height: 60px;
+  background-color: orange;
+  display: block;
+  position: absolute;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.left-line-span:hover {
+  width: 100px;
+}
+.left-line {
+  position: relative;
+}
