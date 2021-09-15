@@ -72,3 +72,14 @@ a {
 .container {
   margin: 29px;
 }
+.left-line::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 35px;
+  background-color: orange;
+  margin-left: -9px;
+  margin-top: -3px;
+  transition: 0.3s;
+}
