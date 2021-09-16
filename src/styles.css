@@ -54,7 +54,7 @@ a {
   background: #fff;
   margin: 13px;
   border-radius: 8px;
-  box-shadow: 0 0 1px white;
+  #box-shadow: 0 0 1px white;
 }
 .zoom-in:hover {
   transition: 0.3s;
@@ -75,49 +75,17 @@ a {
 .container {
   margin: 29px;
 }
-.left-line::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 1px;
-  height: 35px;
-  background-color: orange;
-  margin-left: -9px;
-  margin-top: -3px;
-  transition: 0.3s;
-}
-
-.left-line-span {
-  width: 2px;
-  height: 60px;
-  background-color: orange;
-  display: block;
-  position: absolute;
-  opacity: 0.6;
-  transition: 0.3s;
-}
-.left-line-span:hover {
-  width: 100px;
-}
-.left-line {
-  position: relative;
-}
 .button {
   margin: 25px auto 25px;
   width: 150px;
   height: 40px;
   border: 0;
   border-radius: 20px;
-  background: orange;
-  font-size: 13px;
   background: var(--main-color);
   letter-spacing: 0;
-  transition: 0.3s;
-  opacity: 1;
   font-weight: 600;
   cursor: pointer;
 }
 .button:hover {
-  background-color: orangered;
   background-color: var(--accent-color);
 }
