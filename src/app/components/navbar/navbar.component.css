@@ -19,16 +19,16 @@ li {
   transition: 0.3s;
 }
 .menu li:hover {
-  color: orangered;
+  color: var(--accent-color);
 }
 .home-button {
-  background-color: orange;
+  background-color: var(--main-color);
   border-bottom-left-radius: 8px;
   border-top-left-radius: 8px;
   transition: 0.3s;
 }
 .home-button:hover {
-  background-color: orangered;
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 .social {

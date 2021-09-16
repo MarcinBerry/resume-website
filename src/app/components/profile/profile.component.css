@@ -20,7 +20,7 @@ ul {
   margin: -13px 25px 0;
 }
 li {
-  padding: 7px 0 8px 9px;
+  padding: 7px 0 8px 8px;
 }
 li p {
   font-size: 14px;
@@ -34,9 +34,8 @@ li:hover p {
   content: "";
   width: 20px;
   height: 25px;
-  border-left: 1px solid orange;
-  border-bottom: 1px solid orange;
-  background: transparent;
+  border-left: 1px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
   display: block;
   margin-left: -10px;
   margin-top: -1px;
@@ -44,35 +43,22 @@ li:hover p {
   transition: 0.3s;
 }
 .decor-square:hover::before {
-  border-color: orangered;
-  width: 180px;
+  border-color: var(--accent-color);
+  width: 230px;
+  #width: 100%;
 }
 .decor-square:hover {
-  border-color: orangered;
+  border-color: var(--accent-color);
 }
 .icon {
   margin-left: 6px;
   width: 15px;
   height: 15px;
 }
-.button {
-  margin: 25px auto 25px;
-  width: 150px;
-  height: 40px;
-  border: 0;
-  border-radius: 20px;
-  background: orange;
-  font-size: 13px;
-  letter-spacing: 0;
-  transition: 0.3s;
-  opacity: 1;
-  font-weight: 600;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-}
 .button:hover {
   cursor: pointer;
-  background: orangered;
+  background: var(--accent-color);
+}
+span {
+  color: black;
 }

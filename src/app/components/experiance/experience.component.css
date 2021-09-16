@@ -9,7 +9,7 @@
   display: block;
   width: 2px;
   margin: 9% 0 0 0;
-  background-color: orange;
+  background-color: var(--main-color);
 }
 .description {
   margin-left: 15px;
@@ -21,7 +21,7 @@
   content: "";
   width: 5px;
   height: 5px;
-  border: 1px solid orange;
+  border: 1px solid var(--main-color);
   display: block;
   position: absolute;
   transform: rotate(45deg);

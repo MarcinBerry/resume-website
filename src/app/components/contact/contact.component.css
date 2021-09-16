@@ -4,8 +4,8 @@ input, textarea {
   padding-left: 10px;
   padding-top: 8px;
   color: #555;
-  border-left: 1px solid orange;
-  border-bottom: 1px solid orange;
+  border-left: 1px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
   width: 30%;
 }
 textarea {

@@ -26,15 +26,14 @@ ul li {
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
   height: 100%;
-  background-color: orangered;
+  background-color: var(--accent-color);
 }
 .square::before {
   content: "";
   width: 45px;
   height: 45px;
-  border-left: 2px solid orange;
-  border-top: 2px solid orange;
-  background: transparent;
+  border-left: 2px solid var(--main-color);
+  border-top: 2px solid var(--main-color);
   display: block;
   margin-left: -9px;
   margin-top: -9px;
@@ -45,17 +44,16 @@ ul li {
   content: "";
   width: 45px;
   height: 45px;
-  border-right: 2px solid orange;
-  border-bottom: 2px solid orange;
-  background: transparent;
+  border-right: 2px solid var(--main-color);
+  border-bottom: 2px solid var(--main-color);
   display: block;
   position: relative;
   margin-top: -27px;
   margin-left: 95%;
-  transition: 0.3s;
+  #transition: 0.3s;
 }
 .line {
   width: 2px;
   margin: 0 10px 0 10px;
-  background-color: orange;
+  background-color: var(--main-color);
 }
