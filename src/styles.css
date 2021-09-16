@@ -85,6 +85,11 @@ a {
   letter-spacing: 0;
   font-weight: 600;
   cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
 }
 .button:hover {
   background-color: var(--accent-color);
