@@ -15,7 +15,7 @@
   margin-left: 15px;
 }
 .description li {
-  margin: 6px 0 6px 8px;
+  margin: 9px 0 6px 8px;
 }
 .description li:before {
   content: "";
@@ -28,4 +28,16 @@
   margin-top: 3px;
   margin-left: -13px;
 }
-
+.date {
+  color: #555;
+  letter-spacing: 1px;
+  margin: 0 0 3px 0;
+  font-size: 13px;
+  font-style: italic;
+}
+h4 {
+  margin-top: 3px;
+}
+.education li {
+  margin: 15px 0 30px 0px;
+}
