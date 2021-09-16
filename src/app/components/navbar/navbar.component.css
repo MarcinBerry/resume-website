@@ -38,4 +38,7 @@ li {
   margin: 10px;
   transition: 0.3s;
 }
+.is-active {
+  color: var(--accent-color);
+}
 
