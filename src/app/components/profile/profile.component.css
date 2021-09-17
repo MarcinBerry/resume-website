@@ -16,8 +16,14 @@
   margin-top: -9px;
   clip-path: polygon(100% 100%, 0 84%, 0 13%, 100% 0);
 }
+.details {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
 ul {
-  margin: -13px 25px 0;
+  #margin: -13px 25px 0;
 }
 li {
   padding: 7px 0 8px 8px;
@@ -44,7 +50,7 @@ li:hover p {
 }
 .decor-square:hover::before {
   border-color: var(--accent-color);
-  width: 230px;
+  width: 50px;
   #width: 100%;
 }
 .decor-square:hover {
