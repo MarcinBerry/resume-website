@@ -1,6 +1,5 @@
 :host {
   display: block;
-  min-width: 800px;
 }
 .navbar{
   justify-content: space-between;

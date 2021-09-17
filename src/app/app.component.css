@@ -1,5 +1,46 @@
 :host {
   margin: 0 auto;
-  display: block;
-  width: 65%;
+  width: 1000px;
+  display:flex;
+  flex-flow: column;
+}
+navbar {
+  width: 100%;
+}
+profile {
+  width: 28%;
+}
+.app {
+  width: 72%;
+}
+@media only screen and (max-width: 1015px ) {
+  :host{
+    width: 800px;
+  }
+}
+@media only screen and (max-width: 815px) {
+  :host {
+    width: 600px;
+  }
+  .content {
+    flex-flow: column;
+  }
+  profile {
+    order: 1;
+    width: 570px;
+  }
+  .app {
+    width: 570px;
+  }
+}
+@media only screen and (max-width: 615px) {
+  :host {
+    width: 500px;
+  }
+  profile {
+    width: 470px;
+  }
+  .app {
+    width: 470px;
+  }
 }
