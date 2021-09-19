@@ -4,6 +4,26 @@
   display:flex;
   flex-flow: column;
 }
+footer {
+  background: #2c2c2c;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+footer p {
+  color: white;
+  margin: 15px;
+}
+.content-outer-container {
+  min-height: 100%;
+}
+.content-inner-container {
+  padding-bottom: 36px;
+}
+.footer-container {
+  height: 30px;
+  margin-top: 36px;
+}
 navbar {
   width: 100%;
 }
