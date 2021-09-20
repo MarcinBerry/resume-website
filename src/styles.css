@@ -15,8 +15,8 @@ body {
   letter-spacing: 1px;
   font-family: 'Roboto', sans-serif;
   color: #333;
-  #background: url("/src/assets/background.png");
-  background-color: #ddd;
+  background: url("assets/background.jpg");
+  #background-color: #ddd;
   cursor: default;
   font-size: 14px;
   #margin: -13px 0 0 0;
@@ -102,5 +102,5 @@ a {
   background-color: var(--accent-color);
 }
 h2 {
-  text-shadow: 2px 2px 2px var(--main-color);
+  text-shadow: 2px 2px 0px var(--main-color);
 }
