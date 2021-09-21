@@ -11,6 +11,7 @@ html, body, app-root {
 }
 body {
   --main-color: orange;
+  #--accent-color: #2b2e48;
   --accent-color: orangered;
   --font-color1: #333;
   letter-spacing: 1px;
