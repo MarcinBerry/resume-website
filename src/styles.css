@@ -12,17 +12,19 @@ html, body, app-root {
 body {
   --main-color: orange;
   --accent-color: orangered;
+  --font-color1: #333;
   letter-spacing: 1px;
   font-family: 'Roboto', sans-serif;
-  color: #333;
-  background: url("assets/background.jpg");
+  color: var(--font-color1);
+  #background: url("assets/background.jpg");
+  background-image: linear-gradient(#aaa, #ddd, #ddd);
   #background-color: #ddd;
   cursor: default;
   font-size: 14px;
   #margin: -13px 0 0 0;
 }
 a {
-  color: #333;
+  color: var(--font-color1);
   text-decoration: none;
 }
 h2 {
@@ -50,7 +52,7 @@ ul {
    list-style-type: none;
 }
 p {
-  color: #777;
+  color: #666;
   font-size: 12px;
   letter-spacing: 1px;
 }
@@ -61,7 +63,7 @@ a {
   background: #fff;
   margin: 15px;
   border-radius: 8px;
-  #box-shadow: 0 0 1px white;
+  box-shadow: 0 0 4px #dddddd;
 }
 .zoom-in:hover {
   transition: 0.3s;
@@ -80,10 +82,10 @@ a {
   flex-flow: column;
 }
 .container {
-  margin: 29px;
+  margin: 29px 35px 29px 35px;
 }
 .button {
-  margin: 25px auto 25px;
+  #margin: 28px auto 35px;
   width: 150px;
   height: 40px;
   border: 0;
@@ -99,8 +101,10 @@ a {
   align-items: center;
 }
 .button:hover {
+  cursor: pointer;
   background-color: var(--accent-color);
 }
-h2 {
-  text-shadow: 2px 2px 0px var(--main-color);
-}
+/*h2 {*/
+/*  color: var(--main-color);*/
+/*  text-shadow: 2px 2px 0px black;*/
+/*}*/
