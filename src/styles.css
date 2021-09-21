@@ -6,10 +6,12 @@
   border: 0;
   outline: 0;
 }
-html, body, app-root {
-  height: 100%
+html {
+  height: 100%;
+  background-image: linear-gradient(#aaa, #ddd, #ddd);
 }
 body {
+
   --main-color: orange;
   --accent-color: orangered;
   --font-color1: #333;
@@ -17,11 +19,11 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--font-color1);
   #background: url("assets/background.jpg");
-  background-image: linear-gradient(#aaa, #ddd, #ddd);
   #background-color: #ddd;
   cursor: default;
   font-size: 14px;
   #margin: -13px 0 0 0;
+  position: sticky;
 }
 a {
   color: var(--font-color1);
@@ -108,3 +110,8 @@ a {
 /*  color: var(--main-color);*/
 /*  text-shadow: 2px 2px 0px black;*/
 /*}*/
+@media only screen and (max-width: 815px) {
+  html {
+    height: 210%;
+  }
+}
