@@ -5,12 +5,9 @@
 ul li {
   margin: 18px 0 18px 0;
 }
-.skills {
-  margin-top: 20px !important;
-}
 .sub-container {
   width: 50%;
-  margin: 0 15px;
+  #margin: 0 10px;
 }
 .bar-box {
   display: flex;
@@ -54,6 +51,11 @@ ul li {
 }
 .line {
   width: 2px;
-  margin: 0 10px 0 10px;
+  margin: 0 25px 0 25px;
   background-color: var(--main-color);
 }
+p {
+  text-align: justify;
+  #margin: 0 11px 0 11px;
+}
+
