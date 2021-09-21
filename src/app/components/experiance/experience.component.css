@@ -3,19 +3,19 @@
   flex-flow: row;
 }
 .container {
-  width: 50%;
+  width: 49%;
+}
+.experience {
+  margin-right: 0;
+}
+.education {
+  margin-left: 0;
 }
 .line {
   display: block;
   width: 2px;
-  margin: 9% 0 0 0;
+  margin: 9% 29px 0 28px;
   background-color: var(--main-color);
-}
-.description {
-  margin-left: 15px;
-}
-.description li {
-  margin: 9px 0 6px 8px;
 }
 .description li:before {
   content: "";
@@ -35,9 +35,33 @@
   font-size: 13px;
   font-style: italic;
 }
+.description li {
+  margin: 9px 0 6px 20px;
+}
 h4 {
   margin-top: 3px;
 }
-.education li {
+li {
   margin: 15px 0 30px 0px;
 }
+.education p {
+  text-align: justify;
+}
+@media only screen and (max-width: 1015px ) {
+  .line {
+    height: 545px;
+  }
+}
+@media only screen and (max-width: 815px) {
+  .line {
+    height: 455px;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .line {
+    margin: 9% 13px 0 9px;
+    height: 550px;
+  }
+}
+
