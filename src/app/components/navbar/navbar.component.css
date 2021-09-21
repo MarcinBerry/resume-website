@@ -18,7 +18,7 @@ li {
   transition: 0.3s;
 }
 .menu li:hover {
-  color: var(--accent-color);
+  color: var(--main-color);
 }
 .home-button {
   background-color: var(--main-color);
@@ -38,6 +38,6 @@ li {
   transition: 0.3s;
 }
 .is-active {
-  color: var(--accent-color);
+  color: var(--main-color);
 }
 

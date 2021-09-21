@@ -45,7 +45,7 @@ li {
   margin: 15px 0 30px 0px;
 }
 .education p {
-  text-align: justify;
+  #text-align: justify;
 }
 @media only screen and (max-width: 1015px ) {
   .line {

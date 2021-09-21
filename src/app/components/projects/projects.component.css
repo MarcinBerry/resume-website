@@ -14,8 +14,8 @@
   box-shadow: 0 0 10px #bbb;
 }
 .project-image {
-  #height: 100%;
-  width: 220px;
+  height: 100%;
+  width: auto;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
 }
@@ -26,11 +26,11 @@ h3 {
   margin: 14px;
 }
 p {
-  margin: 0 0 0 8px;
+  margin: 0 8px 0 8px;
   text-align: justify;
 }
 .links {
-  margin: 10px;
+  margin: 10px 15px 10px 10px;
 }
 .icon {
   #width: 24px;
@@ -43,4 +43,22 @@ p {
 }
 a {
   cursor: pointer;
+}
+@media only screen and (max-width: 1015px ) {
+  .links {
+    margin-top: 4px;
+  }
+ h3 {
+   margin-top: 8px;
+   margin-bottom: 8px;
+ }
+}
+@media only screen and (max-width: 615px) {
+  h3 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .links {
+    margin-top: 0px;
+  }
 }
