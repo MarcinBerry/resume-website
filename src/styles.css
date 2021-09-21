@@ -11,16 +11,13 @@ html {
   background-image: linear-gradient(#aaa, #ddd, #ddd);
 }
 body {
-
   --main-color: orange;
-  #--accent-color: #2b2e48;
   --accent-color: orangered;
   --font-color1: #333;
   letter-spacing: 1px;
   font-family: 'Roboto', sans-serif;
   color: var(--font-color1);
   #background: url("assets/background.jpg");
-  #background-color: #ddd;
   cursor: default;
   font-size: 14px;
   #margin: -13px 0 0 0;
