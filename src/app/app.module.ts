@@ -10,6 +10,7 @@ import {RouterModule} from "@angular/router";
 import {AppRoutes} from "./app.routes";
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { HashLocationStrategy, LocationStrategy} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import { ContactComponent } from './components/contact/contact.component';
         RouterModule,
         AppRoutes
     ],
-  providers: [],
+  providers: [
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
