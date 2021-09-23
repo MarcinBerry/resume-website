@@ -9,7 +9,6 @@ import { ExperienceComponent } from './components/experiance/experience.componen
 import {RouterModule} from "@angular/router";
 import {AppRoutes} from "./app.routes";
 import { ProjectsComponent } from './components/projects/projects.component';
-import { ContactComponent } from './components/contact/contact.component';
 import { HashLocationStrategy, LocationStrategy} from "@angular/common";
 
 @NgModule({
@@ -19,8 +18,7 @@ import { HashLocationStrategy, LocationStrategy} from "@angular/common";
     ProfileComponent,
     HomeComponent,
     ExperienceComponent,
-    ProjectsComponent,
-    ContactComponent
+    ProjectsComponent
   ],
     imports: [
         BrowserModule,
