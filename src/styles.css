@@ -104,12 +104,14 @@ a {
   cursor: pointer;
   background-color: var(--accent-color);
 }
-/*h2 {*/
-/*  color: var(--main-color);*/
-/*  text-shadow: 2px 2px 0px black;*/
-/*}*/
-@media only screen and (max-width: 815px) {
-  html {
-    height: 210%;
+@media only screen and (max-width: 1015px ) {
+  :host{
+    height: 135%;
   }
 }
+@media only screen and (max-width: 815px) {
+  html {
+    height: 215%;
+  }
+}
+
