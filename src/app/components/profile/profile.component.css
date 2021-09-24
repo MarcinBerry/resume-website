@@ -56,7 +56,6 @@ li:hover p {
 .decor-square:hover::before {
   border-color: var(--accent-color);
   width: 50px;
-  #width: 100%;
 }
 .decor-square:hover {
   border-color: var(--accent-color);

@@ -17,10 +17,8 @@ body {
   letter-spacing: 1px;
   font-family: 'Roboto', sans-serif;
   color: var(--font-color1);
-  #background: url("assets/background.jpg");
   cursor: default;
   font-size: 14px;
-  #margin: -13px 0 0 0;
   position: sticky;
 }
 a {
